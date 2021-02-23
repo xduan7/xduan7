@@ -20,7 +20,7 @@ for _ in range(total_num_days):
     try:
         work(time_in_hours=8)
     except NotEnoughCoffeeError:
-        print('Nah ... I'll do it tomorrow.')
+        print('Nah ... I\'ll do it tomorrow.')
     enjoy_life()
 ```
 <!---
