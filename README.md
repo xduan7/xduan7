@@ -1,31 +1,36 @@
 ```python
-"""
-File Name:          Xiaotian_Duan
-Project:            gitgud-at-data-science
 
-File Description:
-  - Ph.D. student in computer science at UChicago
-  - working on machine learning in biology & chemistry
-  - failing at bodybuilding because of COVID-19
-  TODO: finish description above
+from Academia from Postdoc
 
-"""
-import curiosity
-import conscientiousness
-from parents import BigBrain
+class XiaotianDuan(Postdoc):
+    def __init__(self):
+        super().__init__(
+            affiliation="Argonne National Lab"
+        )
+        self.research_interests = [
+            "Large Language Models",
+            "Reinforcement Learning",
+            "AI for Science",
+        ]
+        self.proficiencies = [
+            "Python",
+            "PyTorch",
+            "HuggingFace",
+            "WandB",
+        ]
 
+    @staticmethod
+    def daily_routine():
+        hypotheses = generate_ideas()
+        # 5 is the daily quota; innovation has limits
+        for h in hypotheses[:5]:
+            test(h)
+            if is_promising(h):
+                prototype(h)
+        sleep(trying=True)
 
-for _ in range(total_num_days):
-    wake_up(early_in_the_morning=True)
-    try:
-        work(time_in_hours=8)
-    except NotEnoughCoffeeError:
-        print('Nah ... I\'ll do it tomorrow.')
-    enjoy_life()
 ```
-<!---
-maybe some github stats panels for the future?
-![Xiaotian Duan's GitHub stats](https://github-readme-stats.vercel.app/api?username=xduan7&show_icons=true&theme=gotham&hide=prs,issues,contribs&count_private=true)
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=xduan7&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
--->
 
+![Xiaotian Duan's GitHub stats](https://github-readme-stats.vercel.app/api?username=xduan7&show_icons=true&theme=gotham&hide=prs,issues,contribs&count_private=true)
+
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=xduan7&layout=compact&theme=gotham)](https://github.com/anuraghazra/github-readme-stats)
