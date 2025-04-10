@@ -30,7 +30,8 @@ class XiaotianDuan(Postdoc):
         sleep(trying=True)
 
 ```
-
+<!--
 ![Xiaotian Duan's GitHub stats](https://github-readme-stats.vercel.app/api?username=xduan7&show_icons=true&theme=gotham&hide=prs,issues,contribs&count_private=true)
 
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=xduan7&layout=compact&theme=gotham)](https://github.com/anuraghazra/github-readme-stats)
+-->
