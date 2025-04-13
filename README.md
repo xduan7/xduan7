@@ -22,8 +22,8 @@ class XiaotianDuan(Postdoc):
     @staticmethod
     def daily_routine():
         hypotheses = generate_ideas()
-        # 5 is the daily quota; innovation has limits
-        for h in hypotheses[:5]:
+        max_num_hypotheses_per_day = 5  # innovation has limits
+        for h in hypotheses[:max_num_hypotheses_per_day]:
             test(h)
             if is_promising(h):
                 prototype(h)
